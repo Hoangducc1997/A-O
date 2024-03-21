@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Menu Button Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Menu Button
+  m_TableCollectionNameGuidString: c10e9fafcf34d1b4c8816820fe244398
+  m_Entries:
+  - m_Id: 30959243264
+    m_Key: Level Choice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187868155904
+    m_Key: Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296861339648
+    m_Key: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328532529152
+    m_Key: Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355250245632
+    m_Key: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5386077212672
+    m_Key: TUTORIAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5548396777472
+    m_Key: INTRODUCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5607532269568
+    m_Key: SOUND CHOICE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5919076782080
+    m_Key: ADJUST SOUND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6057698529280
+    m_Key: LANGUAGES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6140531838976
+    m_Key: CHARACTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6221498683392
+    m_Key: DIAMOND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6502584160256
+    m_Key: UPDATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8236698177536
+    m_Key: MENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10010834243584
+    m_Key: BACK MENU
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6246431444113817601
+  references:
+    version: 2
+    RefIds:
+    - rid: 6246431444113817601
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1710437427084

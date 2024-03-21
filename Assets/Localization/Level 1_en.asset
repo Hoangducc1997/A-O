@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Level 1_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 073ece97a8c64ba46b77399e7bca4abc, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 89895997440
+    m_Localized: '
+
+      Hey, I''m the guide to help you understand how to play
+      and overcome the challenges!
+
+
+
+
+
+
+
+
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71505991438336
+    m_Localized: JUMP/ x2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71524303769600
+    m_Localized: KICK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71484520796160
+    m_Localized: RIGHT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71451348045824
+    m_Localized: LEFT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71369026441216
+    m_Localized: BE CAREFUL, many traps like that will make the character die
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71280686010368
+    m_Localized: Diamonds can be used to purchase items in the shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71220023791616
+    m_Localized: Collecting enough coins can help the character advance to the next
+      level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71156639469568
+    m_Localized: LET'S GO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71065912479744
+    m_Localized: The fullness of the immanent self helps the character transform
+      into a giant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71041065422848
+    m_Localized: The vital sign of the character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73611393634304
+    m_Localized: -PAUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84673878822912
+    m_Localized: BE CAREFUL! Falling into the water will cause the player to lose
+      one heart. If unfortunately fallen down, wait for the platform to appear and
+      jump on it to continue the journey!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85783406448640
+    m_Localized: Please eat this cherry, it will increase your immanence and be beneficial
+      for the next level!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86355266244608
+    m_Localized: Please use the 'KICK' button to break the box and receive the reward!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86357979959296
+    m_Localized: Jump up and grab the key, you'll pass this level!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

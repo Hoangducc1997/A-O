@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Menu Function_vi-VN
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: vi-VN
+  m_SharedData: {fileID: 11400000, guid: e549b7b1e2a43834ca4e9f463e9c5d21, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 6246431564444467202
+  m_TableData:
+  - m_Id: 154098208768
+    m_Localized: "NG\xD4N NG\u1EEE"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5980099710976
+    m_Localized: "\xC2M THANH"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13007672840192
+    m_Localized: "GIAO DI\u1EC6N"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13236748947456
+    m_Localized: "T\xEDnh n\u0103ng m\u1EDBi s\u1EBD \u0111\u01B0\u1EE3c c\u1EADp
+      nh\u1EADt trong th\u1EDDi gian s\u1EAFp t\u1EDBi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14865900507136
+    m_Localized: "Xin l\u1ED7i v\xEC s\u1EF1 b\u1EA5t ti\u1EC7n n\xE0y, v\xE0 c\u1EA3m
+      \u01A1n b\u1EA1n \u0111\xE3 th\xF4ng c\u1EA3m. H\xE3y theo d\xF5i ch\xFAng
+      t\xF4i tr\xEAn m\u1EA1ng x\xE3 h\u1ED9i \u0111\u1EC3 c\u1EADp nh\u1EADt th\xF4ng
+      tin m\u1EDBi nh\u1EA5t <3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17922054950912
+    m_Localized: "Ch\xE2n th\xE0nh c\u1EA3m \u01A1n b\u1EA1n v\xEC \u0111\xE3 \u1EE7ng
+      h\u1ED9 tr\xF2 ch\u01A1i c\u1EE7a ch\xFAng t\xF4i"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17950093873152
+    m_Localized: "L\u1EADp tr\xECnh vi\xEAn tr\xF2 ch\u01A1i:\nNg\xF4 Ho\xE0ng \u0110\u1EE9c\nNguy\u1EC5n
+      Minh Thu\u1EADn"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22039754182656
+    m_Localized: "H\u01AF\u1EDANG D\u1EAAN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25100560109568
+    m_Localized: "CH\u1ECCN C\u1EA4P \u0110\u1ED8"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 497123312799744
+    m_Localized: "T\xEDnh n\u0103ng m\u1EDBi s\u1EBD \u0111\u01B0\u1EE3c c\u1EADp
+      nh\u1EADt trong th\u1EDDi gian s\u1EAFp t\u1EDBi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 497126395613184
+    m_Localized: "Xin l\u1ED7i v\xEC s\u1EF1 b\u1EA5t ti\u1EC7n n\xE0y, v\xE0 c\u1EA3m
+      \u01A1n b\u1EA1n \u0111\xE3 th\xF4ng c\u1EA3m. H\xE3y theo d\xF5i ch\xFAng
+      t\xF4i tr\xEAn m\u1EA1ng x\xE3 h\u1ED9i \u0111\u1EC3 c\u1EADp nh\u1EADt th\xF4ng
+      tin m\u1EDBi nh\u1EA5t <3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4868555329245184
+    m_Localized: 
+    m_Metadata:
+      m_Items:
+      - rid: 6246431564444467202
+  references:
+    version: 2
+    RefIds:
+    - rid: 6246431564444467202
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0010f8deec4b1100
