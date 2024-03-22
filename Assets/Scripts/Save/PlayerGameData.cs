@@ -94,10 +94,10 @@ public class PlayerGameData : MonoBehaviour
         playerData.totalDiamond -= valueRemove;
         SaveManager.Save(playerData);
     }
-    public void ResetAllData()
-    {
-        SaveManager.DeleteSaveData(); // Xóa dữ liệu 
-    }
+    //public void ResetAllData()
+    //{
+    //    SaveManager.DeleteSaveData(); // Xóa dữ liệu 
+    //}
 
     public void UseNewCharacter(int characterId)
     {
