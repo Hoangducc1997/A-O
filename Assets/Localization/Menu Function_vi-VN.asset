@@ -78,6 +78,57 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 6246431564444467202
+  - m_Id: 7665424061173760
+    m_Localized: "C\u1ED0T TRUY\u1EC6N"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7665428876234752
+    m_Localized: "CH\u01AF\u01A0NG I"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7665654693367808
+    m_Localized: "CH\u01AF\u01A0NG II"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7665748771606528
+    m_Localized: "CH\u01AF\u01A0NG III"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7665779918508032
+    m_Localized: "- NH\xC2N V\u1EACT S\u1EBC B\u1EAET \u0110\u1EA6U \u1EDE KHU R\u1EEANG
+      XANH (C\xD3 \u0110\u1ECAA H\xCCNH CAO) N\u01A0I NH\xC2N V\u1EACT B\u1ECA L\u0168
+      CU\u1ED0N TR\xD4I L\u1EA0C \u0110\u1EBEN. \u1EDE KHU R\u1EEANG C\xD3 NHI\u1EC0U
+      B\u1EAAY V\xC0 K\u1EBA TH\xD9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7665865557807104
+    m_Localized: "- SAU KHI V\u01AF\u1EE2T QUA KHU R\u1EEANG XANH TH\xCC  NH\xC2N
+      V\u1EACT TI\u1EBEP T\u1EE4C KH\xC1M PH\xC1 TI\u1EBEP \u0110\u1ECAA H\xCCNH
+      \u1EDE B\u0102NG C\u1EF0C C\xD3 NHI\u1EC0U B\u1EAAY \u1EA8N V\xC0 K\u1EBA TH\xD9
+      HUNG T\u1EE2N"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7665867298443264
+    m_Localized: "- SAU KHI V\u01AF\u1EE2T QUA \u0110\u1ECAA H\xCCNH B\u0102NG C\u1EF0C
+      TH\xCC NH\xC2N V\u1EACT S\u1EBC  TR\u1EA2I QUA 1 \u0110\u1ECAA H\xCCNH KH\xD3
+      \u0110\xD3 L\xC0 \u1EDE N\xDAI L\u1EECA T\u1EF0A NH\u01AF \u0110ANG \u1EDE
+      \u0110\u1ECAC NG\u1EE4C V\u1EDAI NHI\u1EC0U B\xC2Y KH\xD3 V\xC0 K\u1EBA TH\xD9
+      HUNG T\u1EE2N V\xC0 TH\xD4NG MINH V\xC0 KHI V\u01AF\u1EE2T QUA S\u1EBC  \u0110\u01AF\u1EE2C
+      TR\u1EDE V\u1EC0 N\u01A0I SINH RA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7667186943922176
+    m_Localized: "C\u1EA4P \u0110\u1ED8 1 - 2"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7667190400028672
+    m_Localized: "C\u1EA4P \u0110\u1ED8 3 - 4 "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7667192430071808
+    m_Localized: "C\u1EA4P \u0110\u1ED8 5 - 6"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

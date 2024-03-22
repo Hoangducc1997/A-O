@@ -68,12 +68,55 @@ MonoBehaviour:
       \nPlease follow us on social media for the latest updates <3"
     m_Metadata:
       m_Items: []
-  - m_Id: 4865482411773952
-    m_Localized: Duc Contract
-    m_Metadata:
-      m_Items: []
   - m_Id: 4868555329245184
     m_Localized: Duc contract
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7665424061173760
+    m_Localized: PLOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7665428876234752
+    m_Localized: CHAPTER I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7665654693367808
+    m_Localized: CHAPTER II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7665748771606528
+    m_Localized: CHAPTER III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7665779918508032
+    m_Localized: '- THE CHARACTER WILL START IN A DENSE FOREST AREA (WITH HIGH TERRAIN)
+      WHERE THEY ARE SWEPT AWAY BY A FLOOD AND LOST. IN THE FOREST, THERE ARE MANY
+      TRAPS AND ENEMIES'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7665865557807104
+    m_Localized: '- AFTER PASSING THROUGH THE LUSH FOREST, THE CHARACTER CONTINUES
+      TO EXPLORE THE LANDSCAPE IN THE ARCTIC REGION, WHICH IS FILLED WITH HIDDEN
+      TRAPS AND FIERCE ENEMIES'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7665867298443264
+    m_Localized: '- AFTER PASSING THROUGH THE ARCTIC LANDSCAPE, THE CHARACTER WILL
+      ENCOUNTER A CHALLENGING TERRAIN, THAT IS, THE VOLCANIC MOUNTAINS, WHICH SEEM
+      LIKE BEING IN HELL WITH MANY DIFFICULT TRAPS AND FIERCE, INTELLIGENT ENEMIES.
+      ONCE THEY OVERCOME THIS, THEY WILL COME BACK THE PLACE OF ORIGIN'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7667186943922176
+    m_Localized: LEVEL 1 - 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7667190400028672
+    m_Localized: LEVEL 3 - 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7667192430071808
+    m_Localized: LEVEL 5 - 6
     m_Metadata:
       m_Items: []
   references:

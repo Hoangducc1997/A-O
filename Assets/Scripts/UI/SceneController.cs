@@ -17,7 +17,7 @@ public class SceneController : MonoBehaviour
     public void nextLevel()
     {
         int currentLevel = SceneManager.GetActiveScene().buildIndex;
-        int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
+        int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 2);
 
         if (currentLevel + 1 >= unlockedLevel)
         {
