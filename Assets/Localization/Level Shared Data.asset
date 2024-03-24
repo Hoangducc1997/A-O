@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: Level 1 Shared Data
+  m_Name: Level Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: Level 1
+  m_TableCollectionName: Level
   m_TableCollectionNameGuidString: 073ece97a8c64ba46b77399e7bca4abc
   m_Entries:
   - m_Id: 89895997440
@@ -76,7 +76,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 86357979959296
-    m_Key: Tutorial5
+    m_Key: Tutorial6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8253660118650880
+    m_Key: Thank for play
     m_Metadata:
       m_Items: []
   m_Metadata:

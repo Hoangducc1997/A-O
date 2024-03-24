@@ -119,6 +119,22 @@ MonoBehaviour:
     m_Localized: LEVEL 5 - 6
     m_Metadata:
       m_Items: []
+  - m_Id: 8268005565272064
+    m_Localized: 'CHAPTER I
+
+      LEVEL 1'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8268058560303104
+    m_Localized: LEVEL 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8268073395556352
+    m_Localized: 'CHAPTER 2
+
+      LEVEL 3'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

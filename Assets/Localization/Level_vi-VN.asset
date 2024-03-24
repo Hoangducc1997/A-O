@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Level 1_vi-VN
+  m_Name: Level_vi-VN
   m_EditorClassIdentifier: 
   m_LocaleId:
     m_Code: vi-VN
@@ -19,9 +19,10 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 89895997440
-    m_Localized: "\nXin ch\xE0o, ta l\xE0 ng\u01B0\u1EDDi h\u01B0\u1EDBng d\u1EABn
+    m_Localized: "Xin ch\xE0o, ta l\xE0 ng\u01B0\u1EDDi h\u01B0\u1EDBng d\u1EABn
       \u0111\u1EC3 b\u1EA1n c\xF3 th\u1EC3 hi\u1EC3u c\xE1ch ch\u01A1i v\xE0 v\u01B0\u1EE3t
-      qua c\xE1c th\u1EED th\xE1ch"
+      qua c\xE1c th\u1EED th\xE1ch. \u0110\xE2y l\xE0 ch\u01B0\u01A1ng \u0111\u1EA7u
+      ti\xEAn c\u1EE7a tr\xF2 ch\u01A1i. h\xE3y c\u1ED1 g\u1EAFng nh\xE9!\n"
     m_Metadata:
       m_Items: []
   - m_Id: 71505991438336
@@ -91,8 +92,24 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 86357979959296
-    m_Localized: "Nh\u1EA3y l\xEAn v\xE0 l\u1EA5y ch\xECa kh\xF3a, b\u1EA1n s\u1EBD
-      v\u01B0\u1EE3t qua m\xE0n n\xE0y"
+    m_Localized: "Ch\xE0o b\u1EA1n, h\xE3y c\u1ED1 g\u1EAFng v\u01B0\u1EE3t qua m\xE0n
+      n\xE0y \u0111\u1EC3 ti\u1EBFp t\u1EE5c cu\u1ED9c h\xE0nh tr\xECnh c\u1EE7a
+      m\xECnh nh\xE9. M\xE0n ti\u1EBFp theo s\u1EBD l\xE0 \u0111\u1ECBa h\xECnh b\u0103ng
+      tuy\u1EBFt, kh\xF3 kh\u0103n h\u01A1n nhi\u1EC1u \u0111\u1EA5y. L\u01B0u \xFD
+      r\u1EB1ng n\u1EBFu c\u1EADu r\u01A1i xu\u1ED1ng, c\u1EADu s\u1EBD ch\u1EBFt
+      v\xEC \u0111ang \u1EDF r\u1EA5t cao \u0111\u1EA5y!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8253660118650880
+    m_Localized: "Ch\xFAc m\u1EEBng b\u1EA1n \u0111\xE3 v\u01B0\u1EE3t qua ch\u01B0\u01A1ng
+      \u0111\u1EA7u ti\xEAn v\u1EDBi nhi\u1EC1u th\u1EED th\xE1ch, nh\xF3m c\u1EE7a
+      ch\xFAng t\xF4i s\u1EBD c\u1ED1 g\u1EAFng th\u1EADt nhi\u1EC1u v\xE0 ti\u1EBFp
+      t\u1EE5c ho\xE0n th\xE0nh ch\u01B0\u01A1ng 2 v\xE0 3 trong nh\u1EEFng l\u1EA7n
+      c\u1EADp nh\u1EADt ti\u1EBFp theo mong b\u1EA1n th\xF4ng c\u1EA3m \u1EA1 v\xE0
+      r\u1EA5t mong b\u1EA1n c\xF3 nh\u1EEFng g\xF3p \xFD \u0111\u1EC3 nh\xF3m c\xF3
+      th\u1EC3 ho\xE0n thi\u1EC7n h\u01A1n trong b\u1EA3n c\u1EADp nh\u1EADt t\u1EDBi,
+      ch\xE2n th\xE0nh c\u1EA3m \u01A1n b\u1EA1n \u0111\xE3 ch\u1ECDn tr\xF2 ch\u01A1i
+      n\xE0y <3"
     m_Metadata:
       m_Items: []
   references:

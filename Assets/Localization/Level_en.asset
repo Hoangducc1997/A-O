@@ -10,20 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Level 1_en
+  m_Name: Level_en
   m_EditorClassIdentifier: 
   m_LocaleId:
     m_Code: en
   m_SharedData: {fileID: 11400000, guid: 073ece97a8c64ba46b77399e7bca4abc, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 6246431654702219266
   m_TableData:
   - m_Id: 89895997440
-    m_Localized: '
-
-      Hey, I''m the guide to help you understand how to play
-      and overcome the challenges!
-
+    m_Localized: 'Hello, I am the guide here to help you understand how to play and
+      overcome the challenges. This is the first chapter of the game. Let''s give
+      it your best shot!
 
 
 
@@ -34,7 +33,8 @@ MonoBehaviour:
 
 '
     m_Metadata:
-      m_Items: []
+      m_Items:
+      - rid: 6246431654702219266
   - m_Id: 71505991438336
     m_Localized: JUMP/ x2
     m_Metadata:
@@ -97,9 +97,27 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 86357979959296
-    m_Localized: Jump up and grab the key, you'll pass this level!
+    m_Localized: 'Hey, try to get through this stage to continue your journey. The
+      next stage will be the snowy terrain, much more challenging. Keep in mind that
+      if you fall, you''ll die as you''re at a very high altitude!
+
+
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8253660118650880
+    m_Localized: Congratulations on completing the first chapter with many challenges!
+      Our team will strive hard to continue and complete chapters 2 and 3 in the
+      next updates. We hope for your understanding and welcome any feedback to improve
+      further in the upcoming updates. Thank you sincerely for choosing this game
+      <3
     m_Metadata:
       m_Items: []
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 6246431654702219266
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 001038ee14000000

@@ -8,6 +8,13 @@ public class GameManagerLevel : MonoBehaviour
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private GameObject tutorialPanel; // Inner the pauseMenu
 
+    public void openLevel(int level)
+    {
+        AudioManager.Instance.PlaySFX("ChooseLevel");
+        string levelName = "Level " + level;
+        SceneManager.LoadScene(levelName);
+    }
+
     public void Pause()
     {
         // Hiển thị menu pause
