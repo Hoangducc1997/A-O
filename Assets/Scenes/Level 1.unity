@@ -7122,7 +7122,7 @@ Transform:
   m_GameObject: {fileID: 653308727}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.05, y: -1.22, z: 0}
+  m_LocalPosition: {x: -1.35, y: -3.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7799,8 +7799,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: 258.5}
-  m_SizeDelta: {x: 381.64, y: 180}
+  m_AnchoredPosition: {x: 60, y: 143.1}
+  m_SizeDelta: {x: 389.9, y: 261}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &724027584
 MonoBehaviour:
@@ -10419,6 +10419,9 @@ MonoBehaviour:
   pauseMenu: {fileID: 351728728}
   gameOverPanel: {fileID: 137135604}
   tutorialPanel: {fileID: 275509126}
+  _musicSliderMenu: {fileID: 0}
+  _musicSliderLevel: {fileID: 0}
+  _sfxSlider: {fileID: 0}
 --- !u!1 &1031335555
 GameObject:
   m_ObjectHideFlags: 0
@@ -16575,8 +16578,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.1, y: 3.14}
-  m_SizeDelta: {x: 354, y: 207}
+  m_AnchoredPosition: {x: 3.9, y: 3.14}
+  m_SizeDelta: {x: 354, y: 217.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1532424182
 MonoBehaviour:
@@ -16611,20 +16614,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '
-
-    Hey, I''m the guide to help you understand how to play and overcome
-    the challenges!
-
-
-
-
-
-
-
-
-
-'
+  m_Text: "Xin ch\xE0o, ta l\xE0 ng\u01B0\u1EDDi h\u01B0\u1EDBng d\u1EABn \u0111\u1EC3
+    b\u1EA1n c\xF3 th\u1EC3 hi\u1EC3u c\xE1ch ch\u01A1i v\xE0 v\u01B0\u1EE3t qua
+    c\xE1c th\u1EED th\xE1ch. \u0110\xE2y l\xE0 ch\u01B0\u01A1ng \u0111\u1EA7u ti\xEAn
+    c\u1EE7a tr\xF2 ch\u01A1i. h\xE3y c\u1ED1 g\u1EAFng nh\xE9!\n\n\n\n\n\n"
 --- !u!222 &1532424183
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17438,7 +17431,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -97}
+  m_AnchoredPosition: {x: 0, y: -87}
   m_SizeDelta: {x: 540, y: 171}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1560534017

@@ -4674,6 +4674,9 @@ MonoBehaviour:
   pauseMenu: {fileID: 0}
   gameOverPanel: {fileID: 0}
   tutorialPanel: {fileID: 0}
+  _musicSliderMenu: {fileID: 7386554556695742859}
+  _musicSliderLevel: {fileID: 5305679307824135502}
+  _sfxSlider: {fileID: 7077328586897026083}
 --- !u!1 &1013160844
 GameObject:
   m_ObjectHideFlags: 0
@@ -5024,6 +5027,7 @@ GameObject:
   - component: {fileID: 1055793288}
   - component: {fileID: 1055793291}
   - component: {fileID: 1055793290}
+  - component: {fileID: 1055793292}
   m_Layer: 0
   m_Name: Plot Text
   m_TagString: Untagged
@@ -5092,6 +5096,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055793287}
   m_CullTransparentMesh: 1
+--- !u!114 &1055793292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055793287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:e549b7b1e2a43834ca4e9f463e9c5d21
+    m_TableEntryReference:
+      m_KeyId: 7665424061173760
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1055793290}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1080724516
 GameObject:
   m_ObjectHideFlags: 0
@@ -8447,6 +8491,9 @@ MonoBehaviour:
   pauseMenu: {fileID: 0}
   gameOverPanel: {fileID: 0}
   tutorialPanel: {fileID: 0}
+  _musicSliderMenu: {fileID: 0}
+  _musicSliderLevel: {fileID: 0}
+  _sfxSlider: {fileID: 0}
 --- !u!1 &1926151004
 GameObject:
   m_ObjectHideFlags: 0
@@ -9479,11 +9526,19 @@ PrefabInstance:
     - target: {fileID: 354808725243428702, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1003461404}
     - target: {fileID: 354808725243428702, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 397429454}
+    - target: {fileID: 354808725243428702, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MuteSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 354808725243428702, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManagerLevel, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 620890825678435279, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -9491,6 +9546,14 @@ PrefabInstance:
     - target: {fileID: 706132730575851252, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1003461404}
+    - target: {fileID: 706132730575851252, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MusicVolumeLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 706132730575851252, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManagerLevel, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 938827539419485031, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_AnchorMax.y
@@ -9575,11 +9638,19 @@ PrefabInstance:
     - target: {fileID: 1811639241632234464, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1003461404}
     - target: {fileID: 1811639241632234464, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 397429454}
+    - target: {fileID: 1811639241632234464, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MuteMenuMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 1811639241632234464, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManagerLevel, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 1939558106905136807, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -9647,19 +9718,43 @@ PrefabInstance:
     - target: {fileID: 2733491771607002258, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1003461404}
+    - target: {fileID: 2733491771607002258, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MusicVolumeMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 2733491771607002258, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManagerLevel, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3440788480103185058, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1003461404}
+    - target: {fileID: 3440788480103185058, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SfxVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440788480103185058, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManagerLevel, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3494409493228975032, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1003461404}
     - target: {fileID: 3494409493228975032, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 397429454}
+    - target: {fileID: 3494409493228975032, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MuteLevelMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 3494409493228975032, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManagerLevel, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 3503020634861858196, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -9671,11 +9766,19 @@ PrefabInstance:
     - target: {fileID: 3958188374756918404, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1003461404}
     - target: {fileID: 3958188374756918404, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 397429454}
+    - target: {fileID: 3958188374756918404, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UnmuteSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 3958188374756918404, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManagerLevel, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4326484480082307980, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -9879,11 +9982,19 @@ PrefabInstance:
     - target: {fileID: 7868125933792966773, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1003461404}
     - target: {fileID: 7868125933792966773, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 397429454}
+    - target: {fileID: 7868125933792966773, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UnmuteLevelMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868125933792966773, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManagerLevel, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8022618101497746373, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -9947,11 +10058,19 @@ PrefabInstance:
     - target: {fileID: 8870120244184441321, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1003461404}
     - target: {fileID: 8870120244184441321, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 397429454}
+    - target: {fileID: 8870120244184441321, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UnmuteMenuMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 8870120244184441321, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManagerLevel, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 9075406561551212363, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
