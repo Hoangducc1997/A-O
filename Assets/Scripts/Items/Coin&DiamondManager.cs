@@ -7,16 +7,16 @@ public class CoinDiamondManager : MonoBehaviour
     public static CoinDiamondManager instance;
     [SerializeField] public Text Cointext;
     [SerializeField] public Text[] Diamondtext; // Đổi Diamondtext thành một mảng
-
     [SerializeField] private Text CoinRequirementText; // Mục tiêu qua vòng mới
-    public GameObject BoxFinal;
+
+    [SerializeField] public GameObject BoxFinal;
+
     GameManagerLevel gameManagerLevel;
     private int coinScore;
     private int diamondScore = 0;
 
     private bool boxFinalDestroyed;
-    private int[] coinsDestroyBoxFinal = { 5, 19, 29, 39, 55, 100 }; // Mảng số lượng coin cần ở mỗi cấp độ
-
+    private int[] coinsDestroyBoxFinal = { 5, 19, 35, 55, 79, 100 }; // Mảng số lượng coin cần ở mỗi cấp độ
 
     void Start()
     {
@@ -108,10 +108,10 @@ public class CoinDiamondManager : MonoBehaviour
 
         Debug.Log("Coin Score: " + coinScore);
         Debug.Log("BoxFinal Destroyed: " + boxFinalDestroyed);
-
+            
         if (coinScore >= coinsDestroyBoxFinal[currentLevel] && !boxFinalDestroyed)
         {
-            Debug.Log("Destroying BoxFinal");
+            Debug.Log("Destroying BoxFinal");   
             boxFinalDestroyed = true;
             Destroy(BoxFinal);
         }

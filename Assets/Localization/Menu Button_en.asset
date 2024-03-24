@@ -78,6 +78,18 @@ MonoBehaviour:
     m_Localized: BACK MENU
     m_Metadata:
       m_Items: []
+  - m_Id: 3509856518017024
+    m_Localized: PAUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3509889955008512
+    m_Localized: GAME OVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3510850681311232
+    m_Localized: KEEP FIGHTING!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -75,6 +75,18 @@ MonoBehaviour:
     m_Key: BACK MENU
     m_Metadata:
       m_Items: []
+  - m_Id: 3509856518017024
+    m_Key: PAUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3509889955008512
+    m_Key: GAMEOVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3510850681311232
+    m_Key: KEEP FIGHTING
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
