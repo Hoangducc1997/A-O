@@ -7,6 +7,8 @@ public class GameManagerLevel : MonoBehaviour
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private GameObject tutorialPanel; // Inner the pauseMenu
+    
+
 
     public void openLevel(int level)
     {
@@ -15,6 +17,7 @@ public class GameManagerLevel : MonoBehaviour
         SceneManager.LoadScene(levelName);
     }
 
+   
     public void Pause()
     {
         // Hiển thị menu pause

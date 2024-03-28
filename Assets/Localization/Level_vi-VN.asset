@@ -105,11 +105,24 @@ MonoBehaviour:
       \u0111\u1EA7u ti\xEAn v\u1EDBi nhi\u1EC1u th\u1EED th\xE1ch, nh\xF3m c\u1EE7a
       ch\xFAng t\xF4i s\u1EBD c\u1ED1 g\u1EAFng th\u1EADt nhi\u1EC1u v\xE0 ti\u1EBFp
       t\u1EE5c ho\xE0n th\xE0nh ch\u01B0\u01A1ng 2 v\xE0 3 trong nh\u1EEFng l\u1EA7n
-      c\u1EADp nh\u1EADt ti\u1EBFp theo mong b\u1EA1n th\xF4ng c\u1EA3m \u1EA1 v\xE0
-      r\u1EA5t mong b\u1EA1n c\xF3 nh\u1EEFng g\xF3p \xFD \u0111\u1EC3 nh\xF3m c\xF3
-      th\u1EC3 ho\xE0n thi\u1EC7n h\u01A1n trong b\u1EA3n c\u1EADp nh\u1EADt t\u1EDBi,
+      c\u1EADp nh\u1EADt ti\u1EBFp theo mong b\u1EA1n th\xF4ng c\u1EA3m v\xE0 r\u1EA5t
+      mong b\u1EA1n c\xF3 nh\u1EEFng g\xF3p \xFD \u0111\u1EC3 nh\xF3m c\xF3 th\u1EC3
+      ho\xE0n thi\u1EC7n h\u01A1n trong b\u1EA3n c\u1EADp nh\u1EADt s\u1EAFp t\u1EDBi,
       ch\xE2n th\xE0nh c\u1EA3m \u01A1n b\u1EA1n \u0111\xE3 ch\u1ECDn tr\xF2 ch\u01A1i
       n\xE0y <3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9677276400062464
+    m_Localized: "HO\xC0N TH\xC0NH C\u1EA4P \u0110\u1ED8 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9677489537814528
+    m_Localized: "HO\xC0N TH\xC0NH C\u1EA4P \u0110\u1ED8 2"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9677551256997888
+    m_Localized: "CH\xDAC M\u1EEANG B\u1EA0N \u0110\xC3 HO\xC0N TH\xC0NH M\xC0N CH\u01A0I
+      N\xC0Y"
     m_Metadata:
       m_Items: []
   references:

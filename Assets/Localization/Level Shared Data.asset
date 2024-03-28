@@ -83,6 +83,18 @@ MonoBehaviour:
     m_Key: Thank for play
     m_Metadata:
       m_Items: []
+  - m_Id: 9677276400062464
+    m_Key: Complete Level 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9677489537814528
+    m_Key: Complete Level 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9677551256997888
+    m_Key: "CONGRATULATION LEVEL\t"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

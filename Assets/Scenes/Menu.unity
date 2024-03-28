@@ -4906,9 +4906,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1919387078312424818}
-        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: UnmuteLevelMusic
+      - m_Target: {fileID: 1003461404}
+        m_TargetAssemblyTypeName: GameManagerLevel, Assembly-CSharp
+        m_MethodName: MuteLevelMusic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4918,9 +4918,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1919387078312424818}
-        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: UnmuteMenuMusic
+      - m_Target: {fileID: 1003461404}
+        m_TargetAssemblyTypeName: GameManagerLevel, Assembly-CSharp
+        m_MethodName: MuteMenuMusic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4930,9 +4930,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1919387078312424818}
-        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: UnmuteSFX
+      - m_Target: {fileID: 1003461404}
+        m_TargetAssemblyTypeName: GameManagerLevel, Assembly-CSharp
+        m_MethodName: MuteSFX
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6871,9 +6871,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1919387078312424818}
-        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: MuteSFX
+      - m_Target: {fileID: 1003461404}
+        m_TargetAssemblyTypeName: GameManagerLevel, Assembly-CSharp
+        m_MethodName: UnmuteLevelMusic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6883,9 +6883,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1919387078312424818}
-        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: MuteLevelMusic
+      - m_Target: {fileID: 1003461404}
+        m_TargetAssemblyTypeName: GameManagerLevel, Assembly-CSharp
+        m_MethodName: UnmuteMenuMusic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6895,9 +6895,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1919387078312424818}
-        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: MuteMenuMusic
+      - m_Target: {fileID: 1003461404}
+        m_TargetAssemblyTypeName: GameManagerLevel, Assembly-CSharp
+        m_MethodName: UnmuteSFX
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8367,7 +8367,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 105, y: -116.5}
+  m_AnchoredPosition: {x: 107.7, y: -121.69}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1874640678
@@ -9484,17 +9484,6 @@ MonoBehaviour:
   references:
     version: 2
     RefIds: []
---- !u!114 &1919387078312424818 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5754456107085704494, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
-  m_PrefabInstance: {fileID: 3732727924185575216}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8338689663396382675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c71f226286c33384baf7a74f1db4ff98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2000188642152666801 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4203498960971192638, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
@@ -10079,7 +10068,8 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 397429454}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5754456107085704494, guid: fde4ff299ffd7ed4f81e674ccb7ce720, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

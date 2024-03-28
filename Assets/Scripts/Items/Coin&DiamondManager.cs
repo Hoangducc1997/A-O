@@ -62,7 +62,15 @@ public class CoinDiamondManager : MonoBehaviour
             }
         }
 
-        PlayerGameData.Instance.AddDimond(diamondValue); // Cập nhật tổng số kim cương trong gameData
+        if (PlayerGameData.Instance != null)
+        {
+            PlayerGameData.Instance.AddDimond(diamondValue);
+        }
+        else
+        {
+            Debug.LogError("PlayerGameData.Instance is null");
+        }
+
     }
 
 
